@@ -1,5 +1,4 @@
 # RAY-2018
 
-Hola me llamo adrian figueroa frias  
-esto sera una prueba o practica del git para
-el curso de animacion en la asignatura de ray
+ejercicios:
+[ejer 1º](https://github.com/Ejdme99/RAY-2018/blob/master/ejer%201%C2%BA.md)
