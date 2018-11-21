@@ -94,5 +94,3 @@ padding-top: 0</p>
 
 
 Recursos: en contre todo o casi todo sobre el css aqui:https://developer.mozilla.org/es/docs/Web/CSS
-
-añado tambien una actualizacion del mockup anterior con las nuevas paginas 
