@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<!-- ================================================================================================================ -->
+	<!-- Cabeza de una estructura de una página web <head> ... </head> ================================================== -->
+	<!--    - Configuración base de nuestra página web y el navegador. 
+		    - Enlaces a recursos externos, estilos y scripts     -->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>CSS</title>
+		<meta name="description" content="Contenido, teoría y ejercicios de la asignatura RAY - 2018">
+		<meta name="author" content="G.R.P.">
+
+		<!-- Enlaces a archivos externos que definen estilos css -->
+		<link href="../../style/bootstrap.min.css" rel="stylesheet">
+		<link href="../../style/font-awesome.min.css" rel="stylesheet">
+		<link href="../../style/animate.min.css" rel="stylesheet"> 
+		<link href="../../style/lightbox.css" rel="stylesheet"> 
+		<link href="../../style/main.css" rel="stylesheet">
+		<link href="../../style/responsive.css" rel="stylesheet">
+		<link href="../../style/customst.css" rel="stylesheet">
+
+		<!-- Enlaces a las imágenes a usar como iconos del navegador -->
+		<link rel="shortcut icon" href="../../resources/image/ico/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../resources/image/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../resources/image/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../resources/image/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../../resources/image/ico/apple-touch-icon-57-precomposed.png">
+
+	</head>
+
+	<body class="homework-background">
+		<!--<div class="background-image homework-background"></div>-->
+		<!-- ================================================================================================================ -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<header id="header">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-sm-12 overflow">
+						<div class="social-icons pull-right">
+							<ul class="nav nav-pills">
+								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+								<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+
+			</div> <!-- div#ray-title.container -->
+			<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+			<div id="cifp_navbar" class="navbar navbar-inverse" role="banner">
+				<div class="container">
+
+					<div class="navbar-header">
+						<!-- Menú tipo botón expandible para la versión móvil -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Logo y enlace a la página de inicio -->
+						<a class="navbar-brand" href="../../index.html">
+							<h1><img id="CIFP-LOGO" src="../../resources/image/logo.png" alt="logo"></h1>
+						</a>
+					</div>
+
+					<!-- Barra de navegación -->
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="../../index.html">Inicio</a></li>
+
+							<li class="dropdown"><a href="../teoria.html">Historia<i class="fa fa-angle-down"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="../teoria/tema001.html">El primero</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown"><a href="../practicas.html">Prácticas <i class="fa fa-angle-down"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="file:///C:/Users/u_38016571/Desktop/temporal%20adrian%20ma%C3%B1ana/RAY/intento1/pages/ejercicios/ejercicio001.html">Ejercicios 1</a></li>
+									<li><a href="file:///C:/Users/u_38016571/Desktop/temporal%20adrian%20ma%C3%B1ana/RAY/intento1/pages/ejercicios/ejercicio002.html">Ejercicios 2</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown"><a href="../portfolio.html">Easters<i class="fa fa-angle-down"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="../portfolio/galeria.html">Galeria</a></li>
+									<li><a href="../portfolio/cv.html ">Info</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown"><a href="/recursos.html">Recursos <i class="fa fa-angle-down"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="../recursos/cheetsheet.html ">Plantilla Triangle</a></li>
+									<li><a href="file:///C:/Users/u_38016571/Desktop/temporal%20adrian%20ma%C3%B1ana/RAY/intento1/pages/recursos/Html5.html">HMTL 5</a></li>
+									<li><a href="file:///C:/Users/u_38016571/Desktop/temporal%20adrian%20ma%C3%B1ana/RAY/intento1/pages/recursos/CSS.html">CSS</a></li>
+									<li><a href="file:///C:/Users/u_38016571/Desktop/temporal%20adrian%20ma%C3%B1ana/RAY/intento1/pages/recursos/Bootstrap.html">BootStrap</a></li>
+									<li><a href="../recursos/rec-javascript.html ">JavaScript</a></li>
+									<li><a href="../recursos/rec-threejs.html ">Three.js</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="search">
+						<form role="form">
+							<i class="fa fa-search"></i>
+							<div class="field-toggle">
+								<input type="text" class="search-form" autocomplete="off" placeholder="Search">
+							</div>
+						</form>
+					</div>
+
+				</div>
+
+			</div> <!-- div#ray-navbar.navbar.navbar-inverse -->
+
+			<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		</header>
+		<!--/#header - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- ================================================================================================================ -->
+
+		<!-- ================================================================================================================ -->
+		<section id="page-breadcrumb" class="second">
+			<div class="vertical-center sun">
+				<div class="container">
+					<div class="row">
+						<div class="action">
+							<div id="cifp_section_header" class="post-thumb col-md-2 col-sm-2">
+								<a href="#"><img src="../../resources/image/ejercicios/maxresHTMLCSSBack.jpg" class="img-responsive" alt=""></a>
+
+							</div>
+							<div class="col-md-6 col-sm-6" style="margin-top: 2%;">
+								<h1 class="title white-border">Introducción a las interfaces de usuario HTML5</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/#page-breadcrumb-->
+		<!-- ================================================================================================================ -->
+
+
+		<section id="blog-details" class="">
+        <div class="container">
+            <div class="row">
+                <div id="cifp_container_ej" class="col-md-9 col-sm-7">
+                    <div class="row">
+                         <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                
+                                <div id="cifp_ejercicio" class="post-content overflow">
+                                    <h2 class="post-title bold"><a href="#">CSS</a></h2>
+                                    <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
+                                    <br/>
+                                    <p>CSS es un tipo de hoja de estilo y diseño de una pagina por el que se poran añadir mejoras o mas interaccione que si solo se usara HTML5<br> <br></p><br/>
+                                    <h2 class="post-title bold"><a href="#">Comandos</a></h2><br/>
+                                    <blockquote> 
+                                    	<p><strong>selector css</strong>:se usa para remarcar o denominar ciertos "objetos" por ejemplo ( #firstname { 
+    background-color: yellow; 
+} )</p>
+<p><strong>Display</strong>: es una de los usos de css que determina como se demuestra la imagen, texto etc.. ejemplo: {display: none;} </p>
+<p><strong>Position</strong>:como el nombre ya indica este determina la posicion ejemplo: "position: static;"</p>
+<p><strong>Margin</strong>:este determina el margen que deja en los cuatro lados ejemplo: 
+margin-bottom: 0
+margin-left: 0
+margin-right: 0
+margin-top: 0</p>
+<p><strong>Padding</strong>:establece el espacio de relleno peido por todos los lados del elemento ejemplo: 
+padding-bottom: 0
+padding-left: 0
+padding-right: 0
+padding-top: 0</p>
+<p><strong>Text-align</strong>: determina hacia que lado se alinea un texto ya sea izq,drch,centro etc: "text-align:center" </p>
+<p><strong>Background</strong>:esto define los valores que tendria el fondo en toda una unica regla de css :"background: [  < background-color>    ||  < background-image>       ||
+               < background-repeat>   ||  < background-attachment>  ||
+               < background-position>
+            ]   |   inherit ;"</p>
+            <p><strong>Color</strong>:determina un color en el espacio de los RGB y esto son formas de poner el mismo color de rgb:#f03,
+ #F03,
+ #ff0033,
+ #FF0033
+ ,rgb(255,0,51)</p>
+<p><strong>Border</strong>:esto permite definir todos los border con una unica regla: "border: [border-width || border-style || border-color | inherit] ;"</p>
+<p><strong>Box-shadow</strong>:describe distintos tipos de sombra ue se puede poner:"box-shadow:  none | [inset? && [ < offset-x> < offset-y> < blur-radius>? < spread-radius>? < color>? ] ]#"</p>
+
+
+<p>Recursos: en contre todo o casi todo sobre el css aqui:</p>
+<a href="https://developer.mozilla.org/es/docs/Web/CSS">lugar</a>
+<br> <br>
+<br> <br>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                
+            </div>
+        </div>
+    </section>
+
+		<!--/#footer-->
+		<!-- ================================================================================================================ -->
+
+		<!-- ================================================================================================================ -->
+		<!-- Carga "tardía" de librerías de scripts externos -->
+		<script type="text/javascript" src="../../script/jquery.js"></script>
+		<script type="text/javascript" src="../../script/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../script/lightbox.min.js"></script>
+		<script type="text/javascript" src="../../script/wow.min.js"></script>
+		<script type="text/javascript" src="../../script/main.js"></script>
+		<!-- ================================================================================================================ -->
+	</body>
+	<!-- ================================================================================================================ -->
+</html>
