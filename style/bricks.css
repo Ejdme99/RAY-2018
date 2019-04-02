@@ -1,0 +1,62 @@
+
+section#game-section {
+    width: 500px;
+    height:380px;
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    margin: auto
+	;
+    margin-bottom: 20px;
+     z-index: -1;
+	 margin-left:700px
+}
+
+div#gameBackground {
+background-color: #000000b3;
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+z-index: 800;
+display: block;
+
+}
+
+canvas#gameCanvas {
+    width: 480px;
+    height:320px;
+    background-image:url("https://i.avoz.es/default/2017/11/15/00121510767842919304882/Foto/F15N7001.jpg");
+    position: relative;
+    top:10px;
+    display: block;
+    margin: auto;
+    z-index: 901;
+}
+
+div#gameButtonsSec {
+    width: 480px;
+    height:30px;
+    background-color:blue;
+    position: relative;
+    margin: auto;
+    top: 20px;
+     z-index: 901;
+}
+
+button#startButton {
+    width: 100px;
+    height:30px;
+    background-color: white;
+    margin-right: 10px;
+     z-index: 9002;
+}
+
+button#reloadButton {
+    width: 100px;
+    height:30px;
+    background-color: white;
+    margin-left: 10px;
+     z-index: 902;
+}
